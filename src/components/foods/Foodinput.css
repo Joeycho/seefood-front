@@ -1,0 +1,40 @@
+td label{
+    font-size: xx-large;
+}
+
+td input{
+    font-size: xx-large;
+}
+td input[type=checkbox]{
+/* Double-sized Checkboxes */
+-ms-transform: scale(2); /* IE */
+-moz-transform: scale(2); /* FF */
+-webkit-transform: scale(2); /* Safari and Chrome */
+-o-transform: scale(2); /* Opera */
+transform: scale(2);
+padding: 10px;
+}
+
+td input[type=submit]{
+ border-radius: 10px;
+ background: rgb(179, 162, 241);   
+}
+table{
+    background: rgb(191, 233, 243);
+    border-spacing: 30px;
+    border-radius: 25px;
+    width: fit-content;
+    margin: auto auto;
+}
+
+button{
+  -ms-transform: scale(1.2); /* IE */
+  -moz-transform: scale(1.2); /* FF */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -o-transform: scale(1.2); /* Opera */
+  transform: scale(1.2);
+  border-radius: 25px;
+  margin: 20px 20px;
+  font-size: x-large;
+  background-color: white;
+}
